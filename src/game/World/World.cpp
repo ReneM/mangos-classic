@@ -740,6 +740,8 @@ void World::LoadConfigSettings(bool reload)
 
     setConfig(CONFIG_BOOL_AUTO_DOWNRANK,              "AutoDownrank", false);
 
+    setConfig(CONFIG_BOOL_RAID_BOOSTED_XP, "Raid.BoostedXp", false);
+
     setConfig(CONFIG_FLOAT_WAREFFORT_RATES,           "WarEffort.Rates", 1.0f);
     setConfig(CONFIG_BOOL_WAREFFORT_ENABLE,           "WarEffort.Enable", false);
 
